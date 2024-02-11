@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    color: #333;
+}
+
+.steps{
+    width: 600px;
+    background-color: #f7f7f7;
+    /* border-radius: 10px; */
+    /* padding: 25px 100px; */
+    margin: 100px auto;
+}
+
+.number{
+    display: flex;
+    justify-content: space-between;
+}
+.buttons{
+    background-color: #f7f7f7;
+    border-radius: 7px;
+    /* padding: 25px;
+    margin-left: 10px; */
+    padding: 10px;
+  margin-left: 40px;
+}
+.active{
+    color: #4c15f3;
+    background-color: #b4a3e7;
+    /* border-radius: 30px;
+    border-color:  #4c15f3; */
+    
+}
